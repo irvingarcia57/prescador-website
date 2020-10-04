@@ -1,0 +1,43 @@
+*{
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    text-align: center;
+}
+.center h1 {
+    font-size: 3em;
+}
+.center h2 {
+    margin-top: -20px;
+    font-size: 2em;
+}
+.nav{
+    
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.nav ul{
+     
+    list-style-type: none;
+    
+}
+.nav li{
+    float: left;
+     
+}
+.nav li a{
+    
+    text-decoration: none;
+    padding: 8px;
+    color: black; 
+}
+.nav li a:hover {
+    color: darkorange; 
+}
